@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6CD37A920288F2F003A82F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37A820288F2F003A82F0 /* main.m */; };
+		D6CD37AC20288F2F003A82F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37AB20288F2F003A82F0 /* AppDelegate.m */; };
+		D6CD37AF20288F2F003A82F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37AE20288F2F003A82F0 /* ViewController.m */; };
+		D6CD37B220288F2F003A82F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CD37B020288F2F003A82F0 /* Main.storyboard */; };
+		D6CD37B420288F2F003A82F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CD37B320288F2F003A82F0 /* Assets.xcassets */; };
+		D6CD37B720288F2F003A82F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CD37B520288F2F003A82F0 /* LaunchScreen.storyboard */; };
+		D6CD37C220288F2F003A82F0 /* CCSkyBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37C120288F2F003A82F0 /* CCSkyBoxTests.m */; };
+		D6CD37CD20288F2F003A82F0 /* CCSkyBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37CC20288F2F003A82F0 /* CCSkyBoxUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6CD37BE20288F2F003A82F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CD379C20288F2F003A82F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CD37A320288F2F003A82F0;
+			remoteInfo = CCSkyBox;
+		};
+		D6CD37C920288F2F003A82F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CD379C20288F2F003A82F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CD37A320288F2F003A82F0;
+			remoteInfo = CCSkyBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6CD37A420288F2F003A82F0 /* CCSkyBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCSkyBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CD37A820288F2F003A82F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6CD37AA20288F2F003A82F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6CD37AB20288F2F003A82F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6CD37AD20288F2F003A82F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6CD37AE20288F2F003A82F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6CD37B120288F2F003A82F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CD37B320288F2F003A82F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6CD37B620288F2F003A82F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CD37B820288F2F003A82F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CD37BD20288F2F003A82F0 /* CCSkyBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCSkyBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CD37C120288F2F003A82F0 /* CCSkyBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSkyBoxTests.m; sourceTree = "<group>"; };
+		D6CD37C320288F2F003A82F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CD37C820288F2F003A82F0 /* CCSkyBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCSkyBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CD37CC20288F2F003A82F0 /* CCSkyBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSkyBoxUITests.m; sourceTree = "<group>"; };
+		D6CD37CE20288F2F003A82F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CD37A120288F2F003A82F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CD37BA20288F2F003A82F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CD37C520288F2F003A82F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6CD379B20288F2F003A82F0 = {
+			isa = PBXGroup;
+			children = (
+				D6CD37A620288F2F003A82F0 /* CCSkyBox */,
+				D6CD37C020288F2F003A82F0 /* CCSkyBoxTests */,
+				D6CD37CB20288F2F003A82F0 /* CCSkyBoxUITests */,
+				D6CD37A520288F2F003A82F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CD37A520288F2F003A82F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD37A420288F2F003A82F0 /* CCSkyBox.app */,
+				D6CD37BD20288F2F003A82F0 /* CCSkyBoxTests.xctest */,
+				D6CD37C820288F2F003A82F0 /* CCSkyBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CD37A620288F2F003A82F0 /* CCSkyBox */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD37AA20288F2F003A82F0 /* AppDelegate.h */,
+				D6CD37AB20288F2F003A82F0 /* AppDelegate.m */,
+				D6CD37AD20288F2F003A82F0 /* ViewController.h */,
+				D6CD37AE20288F2F003A82F0 /* ViewController.m */,
+				D6CD37B020288F2F003A82F0 /* Main.storyboard */,
+				D6CD37B320288F2F003A82F0 /* Assets.xcassets */,
+				D6CD37B520288F2F003A82F0 /* LaunchScreen.storyboard */,
+				D6CD37B820288F2F003A82F0 /* Info.plist */,
+				D6CD37A720288F2F003A82F0 /* Supporting Files */,
+			);
+			path = CCSkyBox;
+			sourceTree = "<group>";
+		};
+		D6CD37A720288F2F003A82F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD37A820288F2F003A82F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6CD37C020288F2F003A82F0 /* CCSkyBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD37C120288F2F003A82F0 /* CCSkyBoxTests.m */,
+				D6CD37C320288F2F003A82F0 /* Info.plist */,
+			);
+			path = CCSkyBoxTests;
+			sourceTree = "<group>";
+		};
+		D6CD37CB20288F2F003A82F0 /* CCSkyBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD37CC20288F2F003A82F0 /* CCSkyBoxUITests.m */,
+				D6CD37CE20288F2F003A82F0 /* Info.plist */,
+			);
+			path = CCSkyBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CD37A320288F2F003A82F0 /* CCSkyBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CD37D120288F2F003A82F0 /* Build configuration list for PBXNativeTarget "CCSkyBox" */;
+			buildPhases = (
+				D6CD37A020288F2F003A82F0 /* Sources */,
+				D6CD37A120288F2F003A82F0 /* Frameworks */,
+				D6CD37A220288F2F003A82F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCSkyBox;
+			productName = CCSkyBox;
+			productReference = D6CD37A420288F2F003A82F0 /* CCSkyBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6CD37BC20288F2F003A82F0 /* CCSkyBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CD37D420288F2F003A82F0 /* Build configuration list for PBXNativeTarget "CCSkyBoxTests" */;
+			buildPhases = (
+				D6CD37B920288F2F003A82F0 /* Sources */,
+				D6CD37BA20288F2F003A82F0 /* Frameworks */,
+				D6CD37BB20288F2F003A82F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CD37BF20288F2F003A82F0 /* PBXTargetDependency */,
+			);
+			name = CCSkyBoxTests;
+			productName = CCSkyBoxTests;
+			productReference = D6CD37BD20288F2F003A82F0 /* CCSkyBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6CD37C720288F2F003A82F0 /* CCSkyBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CD37D720288F2F003A82F0 /* Build configuration list for PBXNativeTarget "CCSkyBoxUITests" */;
+			buildPhases = (
+				D6CD37C420288F2F003A82F0 /* Sources */,
+				D6CD37C520288F2F003A82F0 /* Frameworks */,
+				D6CD37C620288F2F003A82F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CD37CA20288F2F003A82F0 /* PBXTargetDependency */,
+			);
+			name = CCSkyBoxUITests;
+			productName = CCSkyBoxUITests;
+			productReference = D6CD37C820288F2F003A82F0 /* CCSkyBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CD379C20288F2F003A82F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "CC老师";
+				TargetAttributes = {
+					D6CD37A320288F2F003A82F0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D6CD37BC20288F2F003A82F0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CD37A320288F2F003A82F0;
+					};
+					D6CD37C720288F2F003A82F0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6CD37A320288F2F003A82F0;
+					};
+				};
+			};
+			buildConfigurationList = D6CD379F20288F2F003A82F0 /* Build configuration list for PBXProject "CCSkyBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CD379B20288F2F003A82F0;
+			productRefGroup = D6CD37A520288F2F003A82F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CD37A320288F2F003A82F0 /* CCSkyBox */,
+				D6CD37BC20288F2F003A82F0 /* CCSkyBoxTests */,
+				D6CD37C720288F2F003A82F0 /* CCSkyBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CD37A220288F2F003A82F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CD37B720288F2F003A82F0 /* LaunchScreen.storyboard in Resources */,
+				D6CD37B420288F2F003A82F0 /* Assets.xcassets in Resources */,
+				D6CD37B220288F2F003A82F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CD37BB20288F2F003A82F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CD37C620288F2F003A82F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CD37A020288F2F003A82F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CD37AF20288F2F003A82F0 /* ViewController.m in Sources */,
+				D6CD37AC20288F2F003A82F0 /* AppDelegate.m in Sources */,
+				D6CD37A920288F2F003A82F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CD37B920288F2F003A82F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CD37C220288F2F003A82F0 /* CCSkyBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CD37C420288F2F003A82F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CD37CD20288F2F003A82F0 /* CCSkyBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6CD37BF20288F2F003A82F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CD37A320288F2F003A82F0 /* CCSkyBox */;
+			targetProxy = D6CD37BE20288F2F003A82F0 /* PBXContainerItemProxy */;
+		};
+		D6CD37CA20288F2F003A82F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CD37A320288F2F003A82F0 /* CCSkyBox */;
+			targetProxy = D6CD37C920288F2F003A82F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6CD37B020288F2F003A82F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CD37B120288F2F003A82F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6CD37B520288F2F003A82F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CD37B620288F2F003A82F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CD37CF20288F2F003A82F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CD37D020288F2F003A82F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CD37D220288F2F003A82F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCSkyBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.CCSkyBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6CD37D320288F2F003A82F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCSkyBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.CCSkyBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6CD37D520288F2F003A82F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCSkyBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.CCSkyBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCSkyBox.app/CCSkyBox";
+			};
+			name = Debug;
+		};
+		D6CD37D620288F2F003A82F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCSkyBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.CCSkyBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCSkyBox.app/CCSkyBox";
+			};
+			name = Release;
+		};
+		D6CD37D820288F2F003A82F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCSkyBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.CCSkyBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCSkyBox;
+			};
+			name = Debug;
+		};
+		D6CD37D920288F2F003A82F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCSkyBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.CCSkyBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCSkyBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CD379F20288F2F003A82F0 /* Build configuration list for PBXProject "CCSkyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CD37CF20288F2F003A82F0 /* Debug */,
+				D6CD37D020288F2F003A82F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CD37D120288F2F003A82F0 /* Build configuration list for PBXNativeTarget "CCSkyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CD37D220288F2F003A82F0 /* Debug */,
+				D6CD37D320288F2F003A82F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6CD37D420288F2F003A82F0 /* Build configuration list for PBXNativeTarget "CCSkyBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CD37D520288F2F003A82F0 /* Debug */,
+				D6CD37D620288F2F003A82F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6CD37D720288F2F003A82F0 /* Build configuration list for PBXNativeTarget "CCSkyBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CD37D820288F2F003A82F0 /* Debug */,
+				D6CD37D920288F2F003A82F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CD379C20288F2F003A82F0 /* Project object */;
+}
