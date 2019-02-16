@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D694C570202B2C2F00C9D9A3 /* CCSkyboxShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D694C56F202B2C2F00C9D9A3 /* CCSkyboxShader.vsh */; };
+		D694C572202B2C4100C9D9A3 /* CCSkyboxShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D694C571202B2C4100C9D9A3 /* CCSkyboxShader.fsh */; };
+		D694C57A202B46AD00C9D9A3 /* skybox1.png in Resources */ = {isa = PBXBuildFile; fileRef = D694C577202B46AD00C9D9A3 /* skybox1.png */; };
+		D694C57B202B46AD00C9D9A3 /* skybox2.png in Resources */ = {isa = PBXBuildFile; fileRef = D694C578202B46AD00C9D9A3 /* skybox2.png */; };
+		D694C57C202B46AD00C9D9A3 /* skybox3.png in Resources */ = {isa = PBXBuildFile; fileRef = D694C579202B46AD00C9D9A3 /* skybox3.png */; };
 		D6CD37A920288F2F003A82F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37A820288F2F003A82F0 /* main.m */; };
 		D6CD37AC20288F2F003A82F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37AB20288F2F003A82F0 /* AppDelegate.m */; };
-		D6CD37AF20288F2F003A82F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37AE20288F2F003A82F0 /* ViewController.m */; };
 		D6CD37B220288F2F003A82F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CD37B020288F2F003A82F0 /* Main.storyboard */; };
 		D6CD37B420288F2F003A82F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CD37B320288F2F003A82F0 /* Assets.xcassets */; };
 		D6CD37B720288F2F003A82F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CD37B520288F2F003A82F0 /* LaunchScreen.storyboard */; };
 		D6CD37C220288F2F003A82F0 /* CCSkyBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37C120288F2F003A82F0 /* CCSkyBoxTests.m */; };
 		D6CD37CD20288F2F003A82F0 /* CCSkyBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37CC20288F2F003A82F0 /* CCSkyBoxUITests.m */; };
+		D6CD37DC20288FC4003A82F0 /* starship.c in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37DA20288FC4003A82F0 /* starship.c */; };
+		D6CD37E3202890D4003A82F0 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37E2202890D4003A82F0 /* CCViewController.m */; };
+		D6CD37E620289316003A82F0 /* CCSkyBoxEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CD37E520289316003A82F0 /* CCSkyBoxEffect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D694C56F202B2C2F00C9D9A3 /* CCSkyboxShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CCSkyboxShader.vsh; sourceTree = "<group>"; };
+		D694C571202B2C4100C9D9A3 /* CCSkyboxShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CCSkyboxShader.fsh; sourceTree = "<group>"; };
+		D694C577202B46AD00C9D9A3 /* skybox1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox1.png; sourceTree = "<group>"; };
+		D694C578202B46AD00C9D9A3 /* skybox2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox2.png; sourceTree = "<group>"; };
+		D694C579202B46AD00C9D9A3 /* skybox3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skybox3.png; sourceTree = "<group>"; };
 		D6CD37A420288F2F003A82F0 /* CCSkyBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCSkyBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CD37A820288F2F003A82F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6CD37AA20288F2F003A82F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6CD37AB20288F2F003A82F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6CD37AD20288F2F003A82F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D6CD37AE20288F2F003A82F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D6CD37B120288F2F003A82F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6CD37B320288F2F003A82F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6CD37B620288F2F003A82F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,12 @@
 		D6CD37C820288F2F003A82F0 /* CCSkyBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCSkyBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CD37CC20288F2F003A82F0 /* CCSkyBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSkyBoxUITests.m; sourceTree = "<group>"; };
 		D6CD37CE20288F2F003A82F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CD37DA20288FC4003A82F0 /* starship.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = starship.c; sourceTree = "<group>"; };
+		D6CD37DB20288FC4003A82F0 /* starship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = starship.h; sourceTree = "<group>"; };
+		D6CD37E1202890D4003A82F0 /* CCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		D6CD37E2202890D4003A82F0 /* CCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		D6CD37E420289316003A82F0 /* CCSkyBoxEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSkyBoxEffect.h; sourceTree = "<group>"; };
+		D6CD37E520289316003A82F0 /* CCSkyBoxEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSkyBoxEffect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +119,14 @@
 			children = (
 				D6CD37AA20288F2F003A82F0 /* AppDelegate.h */,
 				D6CD37AB20288F2F003A82F0 /* AppDelegate.m */,
-				D6CD37AD20288F2F003A82F0 /* ViewController.h */,
-				D6CD37AE20288F2F003A82F0 /* ViewController.m */,
+				D6CD37DE20288FE2003A82F0 /* res */,
+				D6CD37DD20288FCA003A82F0 /* kit */,
+				D6CD37E1202890D4003A82F0 /* CCViewController.h */,
+				D6CD37E2202890D4003A82F0 /* CCViewController.m */,
+				D6CD37E420289316003A82F0 /* CCSkyBoxEffect.h */,
+				D6CD37E520289316003A82F0 /* CCSkyBoxEffect.m */,
+				D694C56F202B2C2F00C9D9A3 /* CCSkyboxShader.vsh */,
+				D694C571202B2C4100C9D9A3 /* CCSkyboxShader.fsh */,
 				D6CD37B020288F2F003A82F0 /* Main.storyboard */,
 				D6CD37B320288F2F003A82F0 /* Assets.xcassets */,
 				D6CD37B520288F2F003A82F0 /* LaunchScreen.storyboard */,
@@ -138,6 +160,25 @@
 				D6CD37CE20288F2F003A82F0 /* Info.plist */,
 			);
 			path = CCSkyBoxUITests;
+			sourceTree = "<group>";
+		};
+		D6CD37DD20288FCA003A82F0 /* kit */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD37DA20288FC4003A82F0 /* starship.c */,
+				D6CD37DB20288FC4003A82F0 /* starship.h */,
+			);
+			name = kit;
+			sourceTree = "<group>";
+		};
+		D6CD37DE20288FE2003A82F0 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				D694C577202B46AD00C9D9A3 /* skybox1.png */,
+				D694C578202B46AD00C9D9A3 /* skybox2.png */,
+				D694C579202B46AD00C9D9A3 /* skybox3.png */,
+			);
+			name = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +287,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D694C572202B2C4100C9D9A3 /* CCSkyboxShader.fsh in Resources */,
+				D694C57C202B46AD00C9D9A3 /* skybox3.png in Resources */,
 				D6CD37B720288F2F003A82F0 /* LaunchScreen.storyboard in Resources */,
 				D6CD37B420288F2F003A82F0 /* Assets.xcassets in Resources */,
+				D694C57A202B46AD00C9D9A3 /* skybox1.png in Resources */,
+				D694C57B202B46AD00C9D9A3 /* skybox2.png in Resources */,
+				D694C570202B2C2F00C9D9A3 /* CCSkyboxShader.vsh in Resources */,
 				D6CD37B220288F2F003A82F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +319,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6CD37AF20288F2F003A82F0 /* ViewController.m in Sources */,
+				D6CD37DC20288FC4003A82F0 /* starship.c in Sources */,
 				D6CD37AC20288F2F003A82F0 /* AppDelegate.m in Sources */,
+				D6CD37E3202890D4003A82F0 /* CCViewController.m in Sources */,
 				D6CD37A920288F2F003A82F0 /* main.m in Sources */,
+				D6CD37E620289316003A82F0 /* CCSkyBoxEffect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +557,7 @@
 				D6CD37D320288F2F003A82F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6CD37D420288F2F003A82F0 /* Build configuration list for PBXNativeTarget "CCSkyBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +566,7 @@
 				D6CD37D620288F2F003A82F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6CD37D720288F2F003A82F0 /* Build configuration list for PBXNativeTarget "CCSkyBoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +575,7 @@
 				D6CD37D920288F2F003A82F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
